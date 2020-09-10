@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.nav{ 
+    list-style-type: none;
+    background-color: #DDDDDD;
+    width: 1440px;
+    height: 60px;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    justify-content:center;
+    text-decoration: none;
+    vertical-align: bottom;
+    align-items: center;
+  
+}
+.nav li a{ 
+    text-transform: uppercase;
+    font-size: 24px;
+    background: #DDDDDD;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    vertical-align: bottom;
+    background-color: white;
+    color: navy;
+}
+
+.nav li a.active{
+    background-color: navy;
+    color:white;
+}
+.aboutMeHeader h1{
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    height: 20%;
+    width:50%;
+    justify-content:center;
+}
+body {
+    height: 410vh;
+    background-color: #DBF6FF;
+    font-family: Montserrat;
+}
+.aboutMePartSix p{
+    position: absolute;
+    top:345%;
+    right:10%;
+    height:25%;
+    width: 60%;
+    text-align: right;
+}
+#javaPin{
+    position: absolute;
+    top:329%;
+    right:12%;
+}
+#pythonPin{
+    position: absolute;
+    top:329%;
+    right:20%;
+}
+.aboutMePartFive p{
+    position: absolute;
+    top:315%;
+    right:10%;
+    height:25%;
+    width: 60%;
+    text-align: right;
+}
+#adobeXDPin{
+    position: absolute;
+    top:299%;
+    right:20%;
+}
+#figmaPin{
+    position: absolute;
+    top:299%;
+    right:12%;
+}
+.aboutMePartFour p{
+    position: absolute;
+    top:280%;
+    right:10%;
+    height:25%;
+    width: 60%;
+    text-align: right;
+}
+#iPhonePin{
+    position: absolute;
+    top:265%;
+    right:20%;
+}
+#laptopPin{
+    position: absolute;
+    top:265%;
+    right:12%;
+}
+.transitionTwo p{
+    position: absolute;
+    font-size: 28px;
+    top: 245%;
+    right: 10%;
+    height: 25%; 
+    width: 70%;
+    text-align: right;
+}
+.transitionTwo h2{
+    position: absolute;
+    top: 235%;
+    right: 10%;
+    height: 25%; 
+    width: 62%;
+    text-align: right;
+}
+.aboutMePartThree p{
+    position: absolute;
+    top:205%;
+    left:10%;
+    height:25%;
+    width: 40%;
+}
+#dartmoutPin{
+    position: absolute;
+    top:190%;
+    left:10%;
+}
+.aboutMePartTwo p{
+    position: absolute;
+    top:180%;
+    left:10%;
+    height:25%;
+    width: 40%;
+}
+#biPin{
+    position: absolute;
+    top:165%;
+    left:10%;
+}
+.aboutMePartOne p{
+    position: absolute;
+    top:155%;
+    left:10%;
+    height:25%;
+    width: 40%;
+}
+#MexicoPin{
+    position: absolute;
+    top:140%;
+    left:10%;
+}
+#USPin{
+    position: absolute;
+    top:140%;
+    left:18%;
+}
+.One p{
+    position: absolute;
+    font-size: 28px;
+    top: 120%;
+    left:10%;
+    height: 25%; 
+    width: 60%;
+}
+.One h2{
+    position: absolute;
+    top: 110%;
+    left:10%;
+    height: 25%; 
+    width:80%;
+}
+
+.aboutMeHeader p{
+    position: absolute;
+    top: 38%;
+    left: 65%;
+    height: 35%;
+    width: 15%; 
+}
+
+.aboutMeImage{
+    position: absolute;
+    top: 38%;
+    left: 0%;
+    height: 60%;
+    width: 30%;
+}
+h1 {
+    color: navy;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 85px;
+    line-height: 104px;
+    text-transform: capitalize;
+    }
+h2 {
+    color: navy;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 59px;
+}
+p {
+    color:navy; 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 29px
+}
